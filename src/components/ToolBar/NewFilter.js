@@ -8,7 +8,6 @@ import {
   RadioButton,
   RadioButtonGroup
 } from 'material-ui/RadioButton';
-
 // import Paper from 'material-ui/Paper';
 import Slider from 'material-ui/Slider';
 import FlatButton from 'material-ui/FlatButton';
@@ -43,7 +42,8 @@ class NewFilter extends PureComponent {
   handleStartAgeChange = (event, startValue) => this.setState({ startValue });
   handleEndAgeChange = (event, endValue) => this.setState({ endValue });
 
-  handleDialogClose = () => this.setState({ open: false });
+  handleDialogClose = () => this.setState({ open: false, startValue: undefined, endValue: undefined });
+  handleDialogConfirm = () => this.setState({ open: false });
 
   selectFilter(filterMethod) {
     switch (filterMethod) {
@@ -71,7 +71,7 @@ class NewFilter extends PureComponent {
       <RaisedButton
         label="Confirmar"
         primary={true}
-        onTouchTap={this.handleDialogClose} />,
+        onTouchTap={this.handleDialogConfirm} />,
     ];
 
     return (

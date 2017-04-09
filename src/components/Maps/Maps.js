@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
 import GoogleMapReact from 'google-map-react';
-
-import Pin from './Pin';
 import Emitter from '../../Emitter';
+import Pin from './Pin';
 
 const mapsCanvas = {
   position: 'relative',
@@ -18,8 +17,6 @@ class Maps extends Component {
       center: [-23.5380309, -46.646406899999995],
       zoom: 12
     };
-
-    this.showMoreInformation.bind(this);
   }
 
   componentWillMount() {
@@ -31,10 +28,6 @@ class Maps extends Component {
       center,
       zoom
     });
-  }
-
-  showMoreInformation() {
-    window.alert('Aqui');
   }
 
   render() {
@@ -50,9 +43,12 @@ class Maps extends Component {
             return (
               <Pin
                 key={index}
+                style={{zIndex: 99999}}
                 lat={pin.coordinates.latitude}
                 lng={pin.coordinates.longitude}
-                onClick={this.showMoreInformation} />
+                pinName={pin.name}
+                totalMothers={pin.totalMothers}
+                onMousemove={this.showMoreInformation}/>
             );
           })
         }
