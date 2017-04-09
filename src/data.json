@@ -1,0 +1,170 @@
+[
+  {
+    "name": "UBS SANTA LÚCIA",
+    "totalMothers": 2,
+    "coordinates": {
+      "latitude": -23.688958,
+      "longitude": -46.766005
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL DR. ARTHUR RIBEIRO SABOYA - JABAQUARA",
+    "totalMothers": 1668,
+    "coordinates": {
+      "latitude": -23.653383,
+      "longitude": -46.645403
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL PROF. DR. WALDOMIRO DE PAULA - ITAQUERA/PLANALTO",
+    "totalMothers": 58,
+    "coordinates": {
+      "latitude": -23.53088,
+      "longitude": -46.44479
+    }
+  },
+  {
+    "name": "HOSP SERVIDOR PÚBLICO MUNICIPAL - HSPM",
+    "totalMothers": 136,
+    "coordinates": {
+      "latitude": -23.567266,
+      "longitude": -46.639002
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL DR. FERNANDO MAURO PIRES DA ROCHA - CAMPO LIMPO",
+    "totalMothers": 3861,
+    "coordinates": {
+      "latitude": -23.64856,
+      "longitude": -46.748645
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL E MATERN ESC DR. MÁRIO DE M A DA SILVA - CACHOEIRINHA",
+    "totalMothers": 83,
+    "coordinates": {
+      "latitude": -23.479973,
+      "longitude": -46.671088
+    }
+  },
+  {
+    "name": "CASA DO PARTO DE SAPOPEMBA",
+    "totalMothers": 6,
+    "coordinates": {
+      "latitude": -23.604131,
+      "longitude": -46.532649
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL DR. IGNÁCIO PROENÇA DE GOUVEA",
+    "totalMothers": 40,
+    "coordinates": {
+      "latitude": -23.571907,
+      "longitude": -46.590292
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL CIDADE TIRADENTES -  CARMEN PRUDENTE",
+    "totalMothers": 106,
+    "coordinates": {
+      "latitude": -23.597277,
+      "longitude": -46.403598
+    }
+  },
+  {
+    "name": "PS MUNICIPAL AUGUSTO GOMES DE MATTOS",
+    "totalMothers": 1,
+    "coordinates": {
+      "latitude": -23.633593,
+      "longitude": -46.606673
+    }
+  },
+  {
+    "name": "PS MUNICIPAL BALNEARIO SÃO JOSE",
+    "totalMothers": 28,
+    "coordinates": {
+      "latitude": -23.771848,
+      "longitude": -46.723228
+    }
+  },
+  {
+    "name": "AMA PARELHEIROS",
+    "totalMothers": 24,
+    "coordinates": {
+      "latitude": -23.830138,
+      "longitude": -46.727029
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL SÃO LUIZ GONZAGA",
+    "totalMothers": 202,
+    "coordinates": {
+      "latitude": -23.458745,
+      "longitude": -46.582052
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL PROF. ALÍPIO CORREA NETTO - ERMELINO MATARAZZO",
+    "totalMothers": 80,
+    "coordinates": {
+      "latitude": -23.500191,
+      "longitude": -46.472155
+    }
+  },
+  {
+    "name": "UBS VILA CALU",
+    "totalMothers": 2,
+    "coordinates": {
+      "latitude": -23.739206,
+      "longitude": -46.7931
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL DR. MOYSES DEUSTSCH - M BOI MIRIM",
+    "totalMothers": 8058,
+    "coordinates": {
+      "latitude": -23.691806,
+      "longitude": -46.775098
+    }
+  },
+  {
+    "name": "PS MUNICIPAL DONA MARIA ANTONIETA F. DE BARROS",
+    "totalMothers": 8,
+    "coordinates": {
+      "latitude": -23.748891,
+      "longitude": -46.690435
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL DR. JOSÉ SOARES HUNGRIA - PIRITUBA",
+    "totalMothers": 17,
+    "coordinates": {
+      "latitude": -23.484607,
+      "longitude": -46.727648
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL VILA MARIA  - VEREADOR JOSÉ STOROPOLLI",
+    "totalMothers": 40,
+    "coordinates": {
+      "latitude": -23.521924,
+      "longitude": -46.562067
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL TIDE SETUBAL - SÃO MIGUEL",
+    "totalMothers": 56,
+    "coordinates": {
+      "latitude": -23.497067,
+      "longitude": -46.440204
+    }
+  },
+  {
+    "name": "HOSP MUNICIPAL PROF. MARIO DEGNI - JARDIM SARAH",
+    "totalMothers": 27,
+    "coordinates": {
+      "latitude": -23.578028,
+      "longitude": -46.764717
+    }
+  }
+]

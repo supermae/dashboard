@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "axios": "^0.16.1",
+    "google-map-react": "0.20.0",
     "material-ui": "^0.17.1",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
+    "react-google-maps": "^6.0.1",
     "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
     "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {

@@ -1,19 +1,21 @@
 import React, { PureComponent } from 'react';
+import {
+  Route,
+  BrowserRouter as Router
+} from 'react-router-dom';
 
-import AppBar from 'material-ui/AppBar';
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import Login from './components/Login';
+import Base from './components/Base';
 
 class App extends PureComponent {
   render() {
     return (
-      <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
-        <AppBar
-          title="Painel geral"
-          showMenuIconButton={false}
-        />
-      </MuiThemeProvider>
+      <Router>
+        <main>
+          <Route exact path="/" component={Login} />
+          <Route path="/dashboard" component={Base} />
+        </main>
+      </Router>
     );
   }
 }
